@@ -34,7 +34,7 @@ namespace ApiAlumnosPro
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication1", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API WEB ALUMNOS", Version = "v1" });
             });
 
 
